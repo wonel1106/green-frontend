@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>frontend html and css study</title>
+    
+    <!-- 집에서 실습 -->
+    <style>
+    .studing{
+        color: aquamarine;
+    }
+    
+    h2.cat {
+        text-align: center;
+    }
+
+    div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 4s00px;
+    }
+
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
+
+    div.gallery img {
+        width: 100;
+        height: auto;
+    }
+
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <!--2월 28일 수업-->
+    <h1>hello frontend study world</h1>
+    <h2>2월 28일 수업</h2>
+
+    <ul>
+        <li>Reference
+            <dl>
+                <dd>태그들에 대한 자세한 설명과 그 밖의 정보들을 공부할 수 있다.</dd>
+            </dl>
+            <ul>
+                <li>
+                    <a href="https://www.w3schools.com/tags"><b>w3c</b></a>
+                </li>
+                <li>
+                    <a href="https://caniuse.com/"><b>can i use</b></a>
+                </li>
+            </ul>
+        </li>
+        <li>tag
+            <ul>
+                <li>a = Anchor(앵커태그) 
+                    <dl>
+                        <dd>서로 다른 웹 페이지 사이를 이동하거나 웹 페이지 내부에서 특정한 위치로 이동할 때 사용.</dd>
+                    </dl>
+
+                </li>
+                <li>ul,ol,li</li>
+                <li>br,hr</li>
+            </ul>
+        </li>
+    </ul>
+    <ul>
+        <li>웹표준 검사 필수! 중요! 
+            <ul>
+                <li>open wax에서 검사 가능
+                    <dl><dd>=크롬 웹 스토어에서 설치가능</dd></dl>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <hr>
+    <p>body 부분에 웹페이지에서 보여주고 싶은 내용 넣기</p>
+    <p><i>기본 구조는 꼭 한페이지당 하나</i></p>
+    <p>태그를 공부할 땐 Reference를 활용하자.</p>
+    <p>can i use라는 Reference 사이트!<br>사이트에서 코드를 어떻게 사용했는지 확인</p>
+    <a href="https://www.w3schools.com/tags"><b>w3c html Reference</b></a>
+    <br>
+    <a href="https://github.com/wonel1106"><b>github</b></a>
+    <br>
+    <br>
+    <hr>
+
+    <!-- 3월 2일 수업 및 실습 -->
+
+    <h2 class="studing">3월 2일 수업</h2>
+        <label for="serch">검색하기</label>
+        <input type="text" name="serch" id="serch">
+        <button>Click me!</button>
+    <br><br>
+    <hr>
+
+    <!-- 집에서 실습 -->
+    
+    <h2 class="cat">고양이 집사의 주접</h2>
+
+    <div class="gallery">
+        <a target="_blank" href="cat1.jpeg">
+            <img src="cat1.jpeg" alt="cute cat" width="400" height="400">
+        </a>
+        <div class="desc">고양이는 귀여워</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="cat2.jpeg">
+            <img src="cat2.jpeg" alt="cute cat" width="400" height="400">
+        </a>
+        <div class="desc">고양이 앉아있는 것도 귀여워</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="cat3.jpeg">
+            <img src="cat3.jpeg" alt="cute cat" width="400" height="400">
+        </a>
+        <div class="desc">고양이 누워있는 것도 귀여워</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="cat4.jpeg">
+            <img src="cat4.jpeg" alt="cute cat" width="400" height="400">
+        </a>
+        <div class="desc">고양이는 자는 것도 귀여워</div>
+    </div>
+
+</body>
+</html>
