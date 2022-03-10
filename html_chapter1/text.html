@@ -6,12 +6,33 @@
     
     <!-- 집에서 실습 -->
     <style>
+    * {box-sizing: border-box;}
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+    }
+
+    .header{
+        padding: 60px;
+        text-align: center;
+        background: cornflowerblue;
+        color: white;
+    }
+
     .studing{
         color: aquamarine;
     }
     
     h2.cat {
         text-align: center;
+    }
+
+    #cat_box {
+        padding: 60px;
+        margin: 0 20px 0 ;
+        width: auto;
+        height: auto;
     }
 
     div.gallery {
@@ -22,7 +43,7 @@
     }
 
     div.gallery:hover {
-        border: 1px solid #777;
+        border: 3px solid rgb(204, 32, 32);
     }
 
     div.gallery img {
@@ -38,8 +59,10 @@
 </head>
 <body>
     <!--2월 28일 수업-->
-    <h1>hello frontend study world</h1>
-    <h2>2월 28일 수업</h2>
+    <div class="header">
+        <h1>hello frontend study world</h1>
+        <p> 혠 실습 사이트</p>
+    </div>
 
     <ul>
         <li>Reference
@@ -102,33 +125,36 @@
     
     <h2 class="cat">고양이 집사의 주접</h2>
 
-    <div class="gallery">
-        <a target="_blank" href="cat1.jpeg">
-            <img src="cat1.jpeg" alt="cute cat" width="400" height="400">
-        </a>
-        <div class="desc">고양이는 귀여워</div>
+    <div id="cat_box">
+        <div class="gallery">
+            <a target="_blank" href="cat1.jpeg">
+                <img src="cat1.jpeg" alt="cute cat" width="400" height="400">
+            </a>
+            <div class="desc">고양이는 귀여워</div>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="cat2.jpeg">
+                <img src="cat2.jpeg" alt="cute cat" width="400" height="400">
+            </a>
+            <div class="desc">고양이 앉아있는 것도 귀여워</div>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="cat3.jpeg">
+                <img src="cat3.jpeg" alt="cute cat" width="400" height="400">
+            </a>
+            <div class="desc">고양이 누워있는 것도 귀여워</div>
+        </div>
+
+        <div class="gallery">
+            <a target="_blank" href="cat4.jpeg">
+                <img src="cat4.jpeg" alt="cute cat" width="400" height="400">
+            </a>
+            <div class="desc">고양이는 자는 것도 귀여워</div>
+        </div>
     </div>
 
-    <div class="gallery">
-        <a target="_blank" href="cat2.jpeg">
-            <img src="cat2.jpeg" alt="cute cat" width="400" height="400">
-        </a>
-        <div class="desc">고양이 앉아있는 것도 귀여워</div>
-    </div>
-
-    <div class="gallery">
-        <a target="_blank" href="cat3.jpeg">
-            <img src="cat3.jpeg" alt="cute cat" width="400" height="400">
-        </a>
-        <div class="desc">고양이 누워있는 것도 귀여워</div>
-    </div>
-
-    <div class="gallery">
-        <a target="_blank" href="cat4.jpeg">
-            <img src="cat4.jpeg" alt="cute cat" width="400" height="400">
-        </a>
-        <div class="desc">고양이는 자는 것도 귀여워</div>
-    </div>
 
 </body>
 </html>
