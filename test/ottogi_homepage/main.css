@@ -68,7 +68,17 @@
 
     .section1 {
         height: 308px;
-        background: orchid;
+    }
+
+    .section__slider {
+        display: flex;
+        margin: 0 auto;
+        width: 1200px;
+        margin-bottom: 10px;
+    }
+
+    .content {
+        margin-top: 10px;
     }
 
     .section2 {
@@ -83,7 +93,7 @@
 
     .section4 {
         height: 600px;
-        background: rosybrown;
+        background-image: url(./image/visual_06.jpg);
     }
 
     .section5 {
@@ -104,8 +114,10 @@
 
 
      /* 767 이상 */
-    @media all and (min-width:767px){}
+    @media all and (min-width:767px){
+    }
 
 
      /* 767 이상 */
-    @media all and (min-width:1024px){}
+    @media all and (min-width:1025px){
+    }
